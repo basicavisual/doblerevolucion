@@ -98,10 +98,10 @@ export default function Home() {
           {/* Infografía: Doble Revolución */}
           <figure 
             className="my-16 -mx-4 sm:-mx-6 lg:-mx-16 cursor-pointer group"
-            onClick={() => openLightbox("/manus-storage/infinito_doble_revolucion_2bac6ba0.png", "La Doble Revolución: convergencia geopolítica y tecnológica")}
+            onClick={() => openLightbox("/infinito_doble_revolucion.png", "La Doble Revolución: convergencia geopolítica y tecnológica")}
           >
             <img 
-              src="/manus-storage/infinito_doble_revolucion_2bac6ba0.png" 
+              src="/infinito_doble_revolucion.png" 
               alt="La Doble Revolución: convergencia geopolítica y tecnológica"
               className="w-full rounded-sm transition-transform duration-200 group-hover:scale-[1.005] shadow-lg"
             />
@@ -154,10 +154,10 @@ export default function Home() {
           {/* Infografía: Mayoría Global Multipolar */}
           <figure 
             className="my-16 -mx-4 sm:-mx-6 lg:-mx-16 cursor-pointer group"
-            onClick={() => openLightbox("/manus-storage/mayoria_global_3d1decd7.png", "Mayoría Global Multipolar: componentes y articulación")}
+            onClick={() => openLightbox("/mayoria_global.png", "Mayoría Global Multipolar: componentes y articulación")}
           >
             <img 
-              src="/manus-storage/mayoria_global_3d1decd7.png" 
+              src="/mayoria_global.png" 
               alt="Mayoría Global Multipolar: componentes y articulación"
               className="w-full rounded-sm transition-transform duration-200 group-hover:scale-[1.005] shadow-lg"
             />
@@ -204,6 +204,20 @@ export default function Home() {
             </div>
 
             <p>Para comprender la naturaleza de esta batalla, resulta clave recuperar el concepto marxista de Intelecto General. En los <em>Grundrisse</em>, Marx anticipó que el sistema de máquinas y el conocimiento social acumulado se convertirían, al superar un umbral crítico, en fuerza productiva directa. En la era de la computación a gran escala, la inteligencia artificial y el avance de la automatización, el intelecto general podría renombrarse como <ConceptTag term="Intelecto Computacional" glossaryId="intelecto-computacional" />. Está compuesto por el conocimiento social acumulado materializado en los sistemas de máquinas de inteligencia artificial, datos, redes, algoritmos, infraestructuras digitales, trabajo tecnocientífico y la cooperación social distribuida bajo la figura marxiana del trabajador colectivo. Por tanto, la IA expresa la materialización histórica de siglos de trabajo cognitivo, datos colectivos, lucha contra la automatización y saberes populares procesados y estandarizados algorítmicamente.</p>
+                      {/* Infografía: Stack del Intelecto Computacional */}
+          <figure 
+            className="my-16 -mx-4 sm:-mx-6 lg:-mx-16 cursor-pointer group"
+            onClick={() => openLightbox("/stack_intelecto.png", "Stack del Intelecto Computacional")}
+          >
+            <img 
+              src="/stack_intelecto.png" 
+              alt="Stack del Intelecto Computacional"
+              className="w-full rounded-sm transition-transform duration-200 group-hover:scale-[1.005] shadow-lg"
+            />
+            <figcaption className="text-center text-sm text-muted-foreground mt-4 font-mono">
+              Fig. 3 — Stack del Intelecto Computacional: las 7 capas de la infraestructura cognitiva
+            </figcaption>
+          </figure>
             <blockquote>
               El Intelecto Computacional es objeto de disputa tecnopolítica: bajo una lógica tecnoimperial se alinea con la acumulación privada, la guerra y el control algorítmico, pero bajo una lógica de reapropiación social se puede convertir en recurso para comunidades en lucha, fuente de desarrollo de nuevas fuerzas productivas, ayuda en la gestión racional de los bienes comunes, o un punto de partida para la reducción del tiempo de trabajo. No se trata de rechazar la IA o la robótica; se trata de disputar sus propósitos, su producción y su gobernanza.
             </blockquote>
@@ -215,28 +229,13 @@ export default function Home() {
             <p>Simultáneamente, en el Norte Global, en los últimos años se han activado campañas tecnopolíticas como <a href="https://techforpalestine.org/" target="_blank" rel="noopener noreferrer">Tech For Palestine</a>; trabajadores de Amazon y Google organizaron huelgas bajo la campaña <a href="https://www.notechforapartheid.com/" target="_blank" rel="noopener noreferrer">No Tech for Apartheid</a>, denunciando la colaboración con el proyecto <a href="https://es.wired.com/articulos/lazos-ocultos-entre-ejercito-israeli-y-proyecto-nimbus-google-y-amazon" target="_blank" rel="noopener noreferrer">Nimbus</a> y se han multiplicado protestas e iniciativas contra Palantir, como la campaña <a href="https://purgepalantir.com/" target="_blank" rel="noopener noreferrer">Purge Palantir</a>, y acciones contra la militarización de la IA, su uso autoritario y de vigilancia. En el plano de la construcción de alternativas tecnológicas, podemos destacar proyectos como <a href="https://joinmastodon.org/es" target="_blank" rel="noopener noreferrer">Mastodon</a> y Signal, el ecosistema del <a href="https://jointhefediverse.net/" target="_blank" rel="noopener noreferrer">Fediverso</a>, o la plataforma de participación e inteligencia colectiva <a href="https://www.researchgate.net/publication/365892044_Desplazar_los_ejes_alternativas_tecnologicas_derechos_humanos_y_sociedad_civil_a_principios_del_siglo_XXI" target="_blank" rel="noopener noreferrer">Decidim</a> (comunitaria y de código libre y abierto), que se ha convertido en un referente internacional de procesos de democracia participativa. Estos proyectos y movimientos, aún fragmentados, muestran que la intersección entre ellos, en términos de derechos laborales, justicia ambiental y la construcción de alternativas, es una piedra angular para que la revolución tecnológica no quede capturada bajo el tecnoimperialismo, ni gestionada exclusivamente por un puñado de tecnoligarcas.</p>
           </ArticleSection>
 
-          {/* Infografía: Stack del Intelecto Computacional */}
-          <figure 
-            className="my-16 -mx-4 sm:-mx-6 lg:-mx-16 cursor-pointer group"
-            onClick={() => openLightbox("/manus-storage/stack_intelecto_1da56d9f.png", "Stack del Intelecto Computacional")}
-          >
-            <img 
-              src="/manus-storage/stack_intelecto_1da56d9f.png" 
-              alt="Stack del Intelecto Computacional"
-              className="w-full rounded-sm transition-transform duration-200 group-hover:scale-[1.005] shadow-lg"
-            />
-            <figcaption className="text-center text-sm text-muted-foreground mt-4 font-mono">
-              Fig. 3 — Stack del Intelecto Computacional: las 7 capas de la infraestructura cognitiva
-            </figcaption>
-          </figure>
-
           {/* Infografía: Red Tecnopolítica */}
           <figure 
             className="my-16 -mx-4 sm:-mx-6 lg:-mx-16 cursor-pointer group"
-            onClick={() => openLightbox("/manus-storage/red_tecnopolitica_c674efbb.png", "Red Tecnopolítica por la Soberanía Digital")}
+            onClick={() => openLightbox("/red_tecnopolitica.png", "Red Tecnopolítica por la Soberanía Digital")}
           >
             <img 
-              src="/manus-storage/red_tecnopolitica_c674efbb.png" 
+              src="/red_tecnopolitica.png" 
               alt="Red Tecnopolítica por la Soberanía Digital"
               className="w-full rounded-sm transition-transform duration-200 group-hover:scale-[1.005] shadow-lg"
             />
@@ -266,10 +265,10 @@ export default function Home() {
           {/* Infografía: Matriz síntesis */}
           <figure 
             className="my-16 -mx-4 sm:-mx-6 lg:-mx-16 cursor-pointer group"
-            onClick={() => openLightbox("/manus-storage/matriz_sintesis_5f304d60.png", "Doble Revolución: Matriz de síntesis")}
+            onClick={() => openLightbox("/matriz_sintesis.png", "Doble Revolución: Matriz de síntesis")}
           >
             <img 
-              src="/manus-storage/matriz_sintesis_5f304d60.png" 
+              src="/matriz_sintesis.png" 
               alt="Doble Revolución: Matriz de síntesis"
               className="w-full rounded-sm transition-transform duration-200 group-hover:scale-[1.005] shadow-lg"
             />

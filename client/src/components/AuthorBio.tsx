@@ -3,7 +3,7 @@ export default function AuthorBio() {
     <div className="my-12 py-8 border-t border-b border-border">
       <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6 max-w-2xl">
         <img 
-          src="/manus-storage/javier_toret_foto_nueva_ed2f8337.jpg" 
+          src="/toret.jpg" 
           alt="Javier Toret"
           className="w-28 h-28 sm:w-32 sm:h-32 object-cover rounded-2xl flex-shrink-0"
         />
