@@ -37,7 +37,10 @@ export default function Footer() {
         {/* Bottom */}
         <div className="mt-10 pt-6 border-t border-border/50 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-xs text-muted-foreground font-mono">
-            &copy; 2026 Javier Toret. Todos los derechos reservados.
+            <a href="https://doblerevolucion.net/">Doble Revolución</a> © 2026 by <a href="https://www.tecnopolitica.net/es/autor/javier-toret">Javier Toret</a> is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
+            <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style={{ maxWidth: "1em", maxHeight: "1em", marginLeft: ".2em", display: "inline", verticalAlign: "middle" }} />
+            <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style={{ maxWidth: "1em", maxHeight: "1em", marginLeft: ".2em", display: "inline", verticalAlign: "middle" }} />
+            <img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" alt="" style={{ maxWidth: "1em", maxHeight: "1em", marginLeft: ".2em", display: "inline", verticalAlign: "middle" }} />
           </p>
           <p className="text-xs text-muted-foreground font-mono">
             Barcelona, mayo 2026
